@@ -4,7 +4,7 @@ pipeline {
     stage('build') {
       steps {
         echo 'delicia cara'
-        sh 'ls -la'
+        sh 'bundle install'
       }
     }
 
